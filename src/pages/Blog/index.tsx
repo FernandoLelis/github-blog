@@ -1,7 +1,9 @@
+import { Profile } from "./componentes/Profile/indes";
+
 export function Blog() {
     return (
-        <div>
-            <p>Blog</p>
-        </div>
+        <>
+            <Profile />
+        </>
     )
 }
