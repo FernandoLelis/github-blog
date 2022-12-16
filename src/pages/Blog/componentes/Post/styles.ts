@@ -33,7 +33,7 @@ export const PostContainer = styled(Link)`
 
         span {
           width: max-content;
-          font-size: ${({ theme }) => theme.textSizes["title-title-s"]};
+          font-size: ${({ theme }) => theme.textSizes["text-text-s"]};
           color: ${({ theme }) => theme.colors["base-span"]};
         }
     }
