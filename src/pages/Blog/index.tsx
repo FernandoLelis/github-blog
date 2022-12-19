@@ -44,7 +44,7 @@ export function Blog() {
     return (
         <>
             <Profile />
-            <SearchInput getPosts={getPosts} />
+            <SearchInput postsLength={posts.length} getPosts={getPosts} />
             <PostListContainer>
                 {posts.map((post) => (
                     <Post key={post.number} post={post} />
